@@ -1,0 +1,651 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+
+}
+.navbar{
+    display:inline-flex;
+    border-bottom:2px solid rgb(223, 233, 110);
+    height:10vh;
+    width: 100vw;
+    background-color:white;
+    color:rgb(25, 108, 4);
+    box-shadow:2px 3px 4px  greenyellow ;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+     
+
+}
+.logo{
+    margin:5px;
+    justify-content: center;
+    font-weight: 60px;
+    font-size: 30px;
+   
+
+}
+.navlist{
+    margin:10px;
+    justify-content: space-around;
+    color: aquamarine;
+    
+    
+
+}
+
+a{
+    
+    text-decoration: none;
+    color:rgb(28, 73, 2);
+    justify-content: space-around;
+    gap: 10px;
+    margin :5px;
+    padding:6px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+#img{
+    opacity:31%;
+   
+    width: 100vw;
+}
+.image-box {
+  position: relative;      /* Important */
+ 
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  object-fit: cover;
+ 
+}
+
+.image-box img {
+  width: 100%;
+  display: block;
+  
+
+}
+
+.text-overlay {
+
+  position: absolute;      /* Places text over image */
+  top:50%;              /* Vertical center */
+  left: 50%;               /* Horizontal center */
+  bottom: 50%;
+  right:50%;
+  display:flex;
+  opacity: 100%;
+  color: rgba(13, 9, 9, 0.903);
+  font-size: clamp(130px,3vw,30px);
+  font-weight:bolder;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+  padding:20px ;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 1.1;
+  animation:fadeIn 2s ease-in forwards;
+            
+}
+
+/* Typing animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+          to{
+            opacity:1;
+          }
+}
+
+.hero{
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px rgb(41, 42, 41);
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 186, 76);
+    width: 100vw;
+    text-align: center;
+    height: 100vh;
+}
+
+
+.coco{
+    font-size: 34px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    
+
+}
+#connect{
+     color: green;
+
+
+}
+#btn{
+    display: inline-block;
+    border: 2px solid rgb(182, 243, 102);
+    margin:15px;
+    padding:2px ;
+    background-color:rgb(203, 224, 66,0.3);
+   border-radius: 10px;
+   font-weight: bold;
+   box-shadow: 2px 2px 2px rgb(116, 115, 115);
+ 
+}
+#btn:hover{
+    background-color: white;
+    
+}
+.section{
+    
+    box-sizing: border-box;
+    margin-top: 80px;
+    display: block;
+    text-align: center;
+    background-color: rgb(188, 225, 41,0.1);
+    box-shadow:3px 3px 3px  rgba(80, 95, 22, 0.3);
+
+
+}
+#about{
+    color: rgb(5, 5, 56);
+    font-size: 30px;
+    text-decoration: underline;
+
+
+}
+#des{
+
+    
+    font-size: 25px;
+    margin-top: 20px;
+    padding:20px 20px;
+    
+    
+
+    
+}
+.cta{
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+
+
+}
+#diff{
+    color: rgb(3, 86, 59);
+    font-size: 34px;
+    
+}
+
+
+
+
+
+footer{
+    border-top: 2px solid rgb(10, 43, 10);
+    background-color: rgb(4, 58, 19);
+    color: white;
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+       
+}
+
+
+
+
+
+
+/*POST*/
+
+
+/* Layout */
+.post-section {
+    display: flex;
+   background-color: #6c796c;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 40px;
+}
+
+
+/* Left Info Box */
+.info-box {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+  
+    max-width: 1000px;
+}
+
+.info-box h2 {
+    color:white;
+    font-size: 56px;
+}
+
+.info-box p {
+    color: #333;
+    line-height: 1.6;
+     font-size: 34px;
+}
+
+/* Form Card */
+.form-container {
+    background: rgb(207, 237, 204);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    font-size: 20px;
+    max-width: 650px;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #2e7d32;
+}
+
+/* Form Styling */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: none;
+    height: 90px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #43a047;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #2e7d32;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .post-section {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     .gallery-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.gallery-item {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gallery-item h3 {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+#trans{
+    color: #1d441f;
+    font-size: 60px;
+}
+#po{
+    font-size: 34px;
+}
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Jobs Section */
+.jobs-section {
+    background-color: #78867a;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.jobs-section h2 {
+    color:white;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+/* Job Cards */
+.job-card {
+    background: white;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.job-card h3 {
+    color: #1b5e20;
+}
+
+.job-card p {
+    margin: 8px 0;
+}
+
+.job-card button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #43a047;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.job-card button:hover {
+    background: #2e7d32;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.products-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    color: #2e7d32;
+}
+
+.product-card span {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #1b5e20;
+}
+
+.product-card button {
+    padding: 8px 12px;
+    background: #43a047;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background: #2e7d32;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contain{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #59655a;
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-box {
+   
+    background: rgb(178, 215, 176);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input, select {
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #2e7d32;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1b5e20;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
