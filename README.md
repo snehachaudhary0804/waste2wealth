@@ -81,15 +81,6 @@ Waste2Wealth Connect aims to reduce waste pollution by creating a platform where
 
 ---
 
-## 📸 Screenshots
-
-_Add your project screenshots here_
-
-Example:
-
-```md
-![Homepage](image-link)
-```
 ---
 
 ## 🤝 Contributing
