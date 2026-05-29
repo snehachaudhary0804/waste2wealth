@@ -90,37 +90,6 @@ Example:
 ```md
 ![Homepage](image-link)
 ```
-
----
-
-## ⚙️ Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/waste2wealth.git
-```
-
-### Install Dependencies
-
-```bash
-npm install
-```
-
-### Run Frontend
-
-```bash
-cd client
-npm start
-```
-
-### Run Backend
-
-```bash
-cd server
-npm run dev
-```
-
 ---
 
 ## 🤝 Contributing
@@ -137,9 +106,7 @@ Contributions are welcome!
 
 ## 📫 Contact
 
-👩‍💻 Sneha Chaudhary  
-📧 your-snehachaudhary0804@gmail.com  
-🔗 LinkedIn: https://linkedin.com/
+👩‍💻 Sneha Chaudhary 
 
 ---
 
