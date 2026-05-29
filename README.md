@@ -98,6 +98,7 @@ Contributions are welcome!
 ## 📫 Contact
 
 👩‍💻 Sneha Chaudhary 
+Linklndin: https://www.linkedin.com/in/sneha-chaudhar-462572275/ 
 
 ---
 
