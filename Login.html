@@ -31,20 +31,21 @@
         <div class="container">
             <div class="form-box">
                 <h2>Login</h2>
-                <form>
-                    <input type="email"placeholder="Email"required>
-                    <input type="password" placeholder="password"required>
+                <div id="auth-message" class="auth-message"></div>
+                <form id="login-form">
+                    <input id="login-email" type="email" placeholder="Email" required>
+                    <input id="login-password" type="password" placeholder="password" required>
                     <button type="submit">Submit</button>
 
                 </form>
                 <hr>
                 <h2>Register</h2>
-        <form>
-            <input type="text" placeholder="Full Name" required>
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Password" required>
+        <form id="register-form">
+            <input id="register-name" type="text" placeholder="Full Name" required>
+            <input id="register-email" type="email" placeholder="Email" required>
+            <input id="register-password" type="password" placeholder="Password" required>
           
-            <select  required>
+            <select id="register-role" required>
                 <option value="">Select Role</option>
                 <option>Client (Post Waste)</option>
                 <option>Worker (Transform Waste)</option>

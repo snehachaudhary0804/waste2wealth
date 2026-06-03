@@ -37,21 +37,21 @@
     <div class="form-container">
         <h2>Post Your Waste</h2>
 
-        <form>
+        <form id="wastform">
 
             <div class="form-group">
                 <label>Full Name</label>
-                <input type="text" placeholder="Enter your name" required>
+                <input id="name" type="text" placeholder="Enter your name" required>
             </div>
 
             <div class="form-group">
                 <label>Location</label>
-                <input type="text" placeholder="City / Area" required>
+                <input id="location" type="text" placeholder="City / Area" required>
             </div>
 
             <div class="form-group">
                 <label>Type of Waste</label>
-                <select required>
+                <select id="waste-type" required>
                     <option value="">Select Waste Type</option>
                     <option>Broken Tiles</option>
                     <option>Plastic Bottles</option>
@@ -63,17 +63,17 @@
 
             <div class="form-group">
                 <label>Quantity</label>
-                <input type="text" placeholder="e.g. 20kg, 3 pieces" required>
+                <input id="quantity" type="text" placeholder="e.g. 20kg, 3 pieces" required>
             </div>
 
             <div class="form-group">
                 <label>What would you like it turned into?</label>
-                <textarea placeholder="Describe expected product..."></textarea>
+                <textarea id="desired-product" placeholder="Describe expected product..."></textarea>
             </div>
 
             <div class="form-group">
                 <label>Upload Image of Waste</label>
-                <input type="file"placeholder=".jpg/.pdf..">
+                <input id="waste-image" type="file" placeholder=".jpg/.pdf..">
             </div>
 
             <button type="submit">Submit Waste Request</button>
@@ -82,10 +82,6 @@
     </div>
 
 </section>
-
-</body>
-</html>
-
 
   <footer>
     <p> 2026 Waste@WealthConnect Sustainable Future</p>
